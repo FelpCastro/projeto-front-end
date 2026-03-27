@@ -43,3 +43,65 @@ https://projeto-front-end-rouge.vercel.app/
 
 ## Futuro/Backend Planejado:
 º Supabase - Para banco de dados, autenticação e API (não implementado ainda).
+
+# 📂 Estrutura do Projeto (Arquitetura Atômica
+```
+├── src/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── assets/
+│   │   └── (recursos como imagens ou fontes)
+│   ├── components/
+│   │   ├── authLinks.jsx
+│   │   ├── buyBox.jsx
+│   │   ├── cartDropDown.jsx
+│   │   ├── cartIcon.jsx
+│   │   ├── filterGroup.jsx
+│   │   ├── footer.jsx
+│   │   ├── gallery.jsx
+│   │   ├── header.jsx
+│   │   ├── hero.jsx
+│   │   ├── imageGallery.jsx
+│   │   ├── logo.jsx
+│   │   ├── mainNave.jsx
+│   │   ├── productInfo.jsx
+│   │   ├── productOptions.jsx
+│   │   ├── relatedProducts.jsx
+│   │   ├── searchBar.jsx
+│   │   ├── section.jsx
+│   │   ├── AbaProdutos/
+│   │   │   ├── productCardList.jsx
+│   │   │   └── productListingList.jsx
+│   │   └── HomePage/
+│   │       ├── productCard.jsx
+│   │       └── productListing.jsx
+│   ├── contexts/
+│   │   └── cartContext.jsx
+│   ├── data/
+│   │   └── products.js
+│   ├── pages/
+│   │   ├── cadastro.jsx
+│   │   ├── categoriasPage.jsx
+│   │   ├── completarCadastro.jsx
+│   │   ├── homePage.jsx
+│   │   ├── layout.jsx
+│   │   ├── login.jsx
+│   │   ├── meusPedidosPage.jsx
+│   │   ├── productListingPage.jsx
+│   │   ├── productPage.jsx
+│   │   ├── productViewPage.jsx
+│   │   └── (outros arquivos de página)
+│   └── services/
+│       └── api.js
+├── public/
+│   └── (arquivos estáticos, ex.: imagens ou ícones)
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── react-router.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js```  
