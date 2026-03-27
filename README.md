@@ -24,8 +24,6 @@ https://projeto-front-end-rouge.vercel.app/
 
 <p>🎨 Estilização Moderna: Utiliza Tailwind CSS para um design limpo e customizável.</p>
 
-# 🚀 Como Executar o Projeto
-
 # 🛠️ Tecnologias Utilizadas
 ## Frontend:
 
