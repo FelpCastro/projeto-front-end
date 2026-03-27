@@ -4,7 +4,8 @@
 # 📋 Sobre o Projeto
 <p>A Digital Store é um projeto de e-commerce moderno desenvolvido em React, simulando uma loja online de tênis e acessórios. O foco está em uma experiência de usuário fluida, com sistema de busca, filtros dinâmicos, carrinho de compras persistente e design responsivo. Atualmente, utiliza dados mockados localmente, mas está preparado para integração com um backend (como Supabase) para autenticação e gerenciamento de produtos.</p>
 
-🚀 Link do Deploy: Acesse o Projeto
+### 🚀 Link do Deploy: 
+https://projeto-front-end-rouge.vercel.app/
 
 # ✨ Funcionalidades em Destaque
 <p>🔍 Sistema de Busca e Filtros Avançados: Busque produtos por nome, categoria, marca (Nike, Adidas, etc.) e faixa de preço.</p>
@@ -26,7 +27,7 @@
 # 🚀 Como Executar o Projeto
 
 # 🛠️ Tecnologias Utilizadas
-Frontend:
+## Frontend:
 
 º React (v19.2.0) - Biblioteca para construção de interfaces.
 º Vite (v7.3.1) - Ferramenta de build e desenvolvimento rápido.
@@ -35,10 +36,10 @@ Frontend:
 º Axios (v1.13.6) - Cliente HTTP para requisições (configurado para backend local).
 º React Icons (v5.6.0) - Ícones para UI.
 
-Ferramentas de Desenvolvimento:
+## Ferramentas de Desenvolvimento:
 º ESLint - Linting para qualidade de código.
 º PostCSS - Processamento de CSS.
 º Autoprefixer - Adição automática de prefixos CSS.
 
-Futuro/Backend Planejado:
+## Futuro/Backend Planejado:
 º Supabase - Para banco de dados, autenticação e API (não implementado ainda).
