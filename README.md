@@ -1,16 +1,44 @@
-# React + Vite
+# 👟 Digital Store - E-Commerce
+<p align="center"> <img src="https://img.shields.io/badge/React-19.2.0-blue" alt="React Version" /> <img src="https://img.shields.io/badge/Vite-7.3.1-yellow" alt="Vite Version" /> <img src="https://img.shields.io/badge/TailwindCSS-4.2.1-cyan" alt="TailwindCSS Version" /> <img src="https://img.shields.io/badge/Node.js-18+-green" alt="Node.js Version" /> <img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License" /> </p> <p align="center"> <strong>Plataforma completa de e-commerce para tênis e lifestyle, com foco em UX intuitiva, filtros avançados e navegação rápida.</strong> </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📋 Sobre o Projeto
+<p>A Digital Store é um projeto de e-commerce moderno desenvolvido em React, simulando uma loja online de tênis e acessórios. O foco está em uma experiência de usuário fluida, com sistema de busca, filtros dinâmicos, carrinho de compras persistente e design responsivo. Atualmente, utiliza dados mockados localmente, mas está preparado para integração com um backend (como Supabase) para autenticação e gerenciamento de produtos.</p>
 
-Currently, two official plugins are available:
+🚀 Link do Deploy: Acesse o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ✨ Funcionalidades em Destaque
+<p>🔍 Sistema de Busca e Filtros Avançados: Busque produtos por nome, categoria, marca (Nike, Adidas, etc.) e faixa de preço.</p>
 
-## React Compiler
+<p>🛒 Carrinho de Compras Interativo: Adicione/remova produtos, ajuste quantidades e veja o total em tempo real. Estado persistido no navegador.</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p>📱 Design Fully Responsive: Otimizado para desktop, tablets e mobile, com navegação intuitiva.</p>
 
-## Expanding the ESLint configuration
+<p>⚡ Performance Otimizada: Carregamento rápido usando Vite e React Router para roteamento SPA.</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p>🔒 Autenticação e Cadastro: Páginas para login, cadastro e completar perfil (preparado para integração com backend).</p>
+
+<p>🖼️ Galeria de Imagens: Visualização detalhada de produtos com múltiplas fotos.</p>
+
+<p>📊 Listagem de Produtos: Páginas dedicadas para categorias, produtos relacionados e visualização individual.</p>
+
+<p>🎨 Estilização Moderna: Utiliza Tailwind CSS para um design limpo e customizável.</p>
+
+# 🚀 Como Executar o Projeto
+
+# 🛠️ Tecnologias Utilizadas
+Frontend:
+
+º React (v19.2.0) - Biblioteca para construção de interfaces.
+º Vite (v7.3.1) - Ferramenta de build e desenvolvimento rápido.
+º React Router DOM (v7.13.1) - Roteamento para navegação SPA.
+º Tailwind CSS (v4.2.1) - Framework CSS para estilização utilitária.
+º Axios (v1.13.6) - Cliente HTTP para requisições (configurado para backend local).
+º React Icons (v5.6.0) - Ícones para UI.
+
+Ferramentas de Desenvolvimento:
+º ESLint - Linting para qualidade de código.
+º PostCSS - Processamento de CSS.
+º Autoprefixer - Adição automática de prefixos CSS.
+
+Futuro/Backend Planejado:
+º Supabase - Para banco de dados, autenticação e API (não implementado ainda).
