@@ -135,5 +135,3 @@ Email: felipe.m.castro01@gmail.com
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js```
-
-
